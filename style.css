@@ -1,0 +1,62 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #4D4C7D;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+  }
+
+  #btn {
+    background-color: #F0ECE5;
+    border-radius: 40px;
+    font-size: 28px;
+    padding: 30px;
+    font-family: 'Lobster', sans-serif;
+    border: 2px solid black;
+  }
+
+  #par {
+    display: none;
+    background-color: #F0ECE5;
+    color: #363062;
+    border-radius: 40px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Lobster', sans-serif;
+    border: 4px solid black;
+    margin-top: 300px;
+    width: 70%;
+    text-align: center;
+      }
+
+    #btn {
+        position: fixed;
+    }  
+
+
+    #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+     
+      background-image: url("");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%;
+    }
+
+    @media all and (max-width:500px) {
+       #par {
+        margin-top: 400px;
+       }
+
+       #btn {
+        font-size: 20px;
+       }
+    }
